@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="SlipSlideShow.SlideShow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <Grid>
+        <Canvas Width="800" Height="600">
+            <Image Height="3002" HorizontalAlignment="Left" Margin="0" Name="image1" Stretch="Uniform" VerticalAlignment="Top" Width="3201" Source="/SlipSlideShow;component/Images/ImplementationPatterns%20-%20Copy.png" Canvas.Left="0" Canvas.Top="0" />
+        </Canvas>
+    </Grid>
+</UserControl>

@@ -19,14 +19,30 @@ namespace SlipSlideShow
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            this.nextSlide();
+        }
+
+        private void btnPrev_Click(object sender, EventArgs e)
+        {
+            this.prevSlide();
+        }
+
+        public void nextSlide()
         {
             this.slideShow1.nextSlide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void prevSlide()
         {
             this.slideShow1.prevSlide();
+        }
+
+        public void hideButtons()
+        {
+            btnNext.Hide();
+            btnPrev.Hide();
         }
     }
 }

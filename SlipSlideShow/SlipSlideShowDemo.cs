@@ -44,5 +44,17 @@ namespace SlipSlideShow
             btnNext.Hide();
             btnPrev.Hide();
         }
+
+        public void goFullscreen()
+        {
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = FormBorderStyle.None;
+        }
+
+        private void btnFullscreen_Click(object sender, EventArgs e)
+        {
+            this.goFullscreen();
+            btnFullscreen.Visible = false; 
+        }
     }
 }

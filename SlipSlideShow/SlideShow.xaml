@@ -7,7 +7,7 @@
              d:DesignHeight="600" d:DesignWidth="800">
     <Grid>
         <Canvas Width="800" Height="600">
-            <Image Height="3002" HorizontalAlignment="Left" Margin="0" Name="image1" Stretch="Uniform" VerticalAlignment="Top" Width="3201" Source="/SlipSlideShow;component/Images/ImplementationPatterns%20-%20Copy.png" Canvas.Left="0" Canvas.Top="0" />
+            <Image Height="1200" HorizontalAlignment="Left" Margin="0" Name="image1" Stretch="None" VerticalAlignment="Top" Width="3200" Source="/SlipSlideShow;component/Images/SampleSlides.png" Canvas.Left="0" Canvas.Top="0" />
         </Canvas>
     </Grid>
 </UserControl>
